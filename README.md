@@ -1,8 +1,8 @@
-#1. Intro
+#1 - Intro
 
-#2. CRA
+#2 - CRA
 
-#3. Overview
+#3 - Overview
 
 - type '.content' and it wil create '<div className="content"></div>'
 - Differences in class names class in JS vs className in JSX.
@@ -15,9 +15,18 @@
 - Set the rel prop to noreferrer for security purposes. It prevents the opened page from gaining any information about the page that it was opened from.
 - You cannot directly output Booleans and Objects in JSX.
 
-#5. Multiple Components
+#5 - Multiple Components
 
 - Use sfc - tab snippet to create a functional component boilerplate.
   const = () => {return ()}
 
-#6. Adding Styles
+#6 - Adding Styles
+
+- Why put the CSS in index.js instead of app.js
+
+#7 - Click Events
+
+- In JSX don't invoke the click handler just reference it otherwise it will fire when you load/refresh the page.
+- Wrap the click handler in an anonymous function when you want to add a parameter to avoid invoking the function. <button onClick={(e) => handleClickAgain('mario', e)}>Click me again</button>
+- Q: What is the btn click event target?
+  A: .target is a property of an event which is a reference to the element upon which the event was fired. Just as 'target' means 'aiming at something', it's used to 'aim' at that particular element. This property gives us access to the properties of that element.
