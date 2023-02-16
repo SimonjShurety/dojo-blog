@@ -15,7 +15,9 @@
 - Set the rel prop to noreferrer for security purposes. It prevents the opened page from gaining any information about the page that it was opened from.
 - You cannot directly output Booleans and Objects in JSX.
 
-#5 - Multiple Components
+#5. Multiple Components
 
 - Use sfc - tab snippet to create a functional component boilerplate.
   const = () => {return ()}
+
+#6. Adding Styles
