@@ -30,3 +30,10 @@
 - Wrap the click handler in an anonymous function when you want to add a parameter to avoid invoking the function. <button onClick={(e) => handleClickAgain('mario', e)}>Click me again</button>
 - Q: What is the btn click event target?
   A: .target is a property of an event which is a reference to the element upon which the event was fired. Just as 'target' means 'aiming at something', it's used to 'aim' at that particular element. This property gives us access to the properties of that element.
+
+#8 - Using State (useState hook)
+
+- UseState() is a function.
+- Uses array destructuring to grab two values that the hook returns.
+- First value = initial value.
+- Second value is a setter function = new value
