@@ -36,4 +36,11 @@
 - UseState() is a function.
 - Uses array destructuring to grab two values that the hook returns.
 - First value = initial value.
-- Second value is a setter function = new value
+- Second value is a setter function = new value.
+
+#9 - Intro to React Dev Tools
+
+- Component tree.
+- Props
+- Select component and click on the eye icon to jump to the related element.
+- Click on the bug looking icon to log data to the console.
