@@ -44,3 +44,7 @@
 - Props
 - Select component and click on the eye icon to jump to the related element.
 - Click on the bug looking icon to log data to the console.
+
+#10 - Outputting Lists
+
+- When you output a list using the map method each root element in the template that is returned must contain a unique key property.
