@@ -53,3 +53,7 @@
 
 - Pass props object to keep components reusable.
 - Destructure props to access directly.
+
+#12 - Reusing Components
+
+- Use .filter to sort content.
