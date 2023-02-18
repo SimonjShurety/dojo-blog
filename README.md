@@ -48,3 +48,8 @@
 #10 - Outputting Lists
 
 - When you output a list using the map method each root element in the template that is returned must contain a unique key property.
+
+#11 - Props
+
+- Pass props object to keep components reusable.
+- Destructure props to access directly.
