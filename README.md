@@ -57,3 +57,11 @@
 #12 - Reusing Components
 
 - Use .filter to sort content.
+  <BlogList blogs={blogs.filter(blog => blog.author === 'mario')} title="Mario's Blogs" />
+
+#13 - Functions as Props
+
+- when the "delete blog" button is clicked, the handleDelete function is invoked;
+- then inside the handleDelete function, the setBlogs function is invoked, thus changing the value of blogs;
+- because blogs as a state variable has changed, React re-renders the Home component;
+- When React re-renders the Home component, it also re-renders the BlogList component.
