@@ -71,3 +71,9 @@
 - Runs code on every render.
 - Runs initially on first load and then any time data changes.
 - Often used to fetch data or some type of authentication service(side-effects).
+
+#15 - useEffect Dependencies
+
+- A second argument for useEffect passed into the hook.
+- Empty array = Runs once on initial render only. State changes won't trigger the function a second time.
+  -Add states to the dependency array to track changes and trigger a re-render.
