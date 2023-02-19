@@ -65,3 +65,9 @@
 - then inside the handleDelete function, the setBlogs function is invoked, thus changing the value of blogs;
 - because blogs as a state variable has changed, React re-renders the Home component;
 - When React re-renders the Home component, it also re-renders the BlogList component.
+
+#14 - useEffect Hook (the basics)
+
+- Runs code on every render.
+- Runs initially on first load and then any time data changes.
+- Often used to fetch data or some type of authentication service(side-effects).
