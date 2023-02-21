@@ -89,3 +89,5 @@
 - Use a conditional template && while waiting for data to return.
 
 #18 - Conditional Loading Message
+
+#19 - Handling Fetch Errors
