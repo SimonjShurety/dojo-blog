@@ -83,3 +83,5 @@
   - Setup mock data on port 8000 with JSON file db.json in app root directory folder called data.
     npx json-server --watch data/db.json --port 8000
     \src\images\endpoints.png
+
+    #17 - Fetching Data with useEffect
