@@ -76,12 +76,14 @@
 
 - A second argument for useEffect passed into the hook.
 - Empty array = Runs once on initial render only. State changes won't trigger the function a second time.
-  -Add states to the dependency array to track changes and trigger a re-render.
+- Add states to the dependency array to track changes and trigger a re-render.
 
-  #16 - Using JSON Server
+#16 - Using JSON Server
 
-  - Setup mock data on port 8000 with JSON file db.json in app root directory folder called data.
-    npx json-server --watch data/db.json --port 8000
-    \src\images\endpoints.png
+- Setup mock data on port 8000 with JSON file db.json in app root directory folder called data.
+  npx json-server --watch data/db.json --port 8000
+  \src\images\endpoints.png
 
-    #17 - Fetching Data with useEffect
+#17 - Fetching Data with useEffect
+
+- Use a conditional template && while waiting for data to return.
