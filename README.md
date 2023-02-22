@@ -95,3 +95,7 @@
 #20 - Making a Custom Hook
 
 #21 - The React Router
+
+- Non-React websites: Constantly making requests to the server for new pages.
+- React apps(SPAs): Server responds to intial request and sends both index.html and js-bundle from which point the browser handles all routing and changes with page content.
+- When a new link within the app is clicked React-Router steps in to avoid the page request going to the server. The page request is intercepted and the required content is injected.
