@@ -101,3 +101,8 @@
 - When a new link within the app is clicked React-Router steps in to avoid the page request going to the server. The page request is intercepted and the required content is injected.
 
 #22 - Exact Match Routes
+
+#23 - Router Links
+
+- Import { Link }
+- Replace anchor tags <a> with <Link> tags and href=/to=
