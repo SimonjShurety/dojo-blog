@@ -3,15 +3,16 @@ import useFetch from "./useFetch";
 
 const Home = () => {
   const {
-    data: blogs,
-    isPending,
     error,
+    isPending,
+    data: blogs,
   } = useFetch("http://localhost:8000/blogs");
+
   return (
     <div className="home">
       {error && <div>{error}</div>}
-      {isPending && <div>loading...</div>}
-      {blogs && <BlogList blogs={blogs} title="All Blogs" />}
+      {isPending && <div>Loading...</div>}
+      {blogs && <BlogList blogs={blogs} />}
     </div>
   );
 };

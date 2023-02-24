@@ -106,3 +106,5 @@
 
 - Import { Link }
 - Replace anchor tags <a> with <Link> tags and href=/to=
+
+#24 - useEffect Cleanup
