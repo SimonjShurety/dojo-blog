@@ -8,6 +8,9 @@ const Home = () => {
     data: blogs,
   } = useFetch("http://localhost:8000/blogs");
 
+  const x = useFetch("http://localhost:8000/blogs");
+  console.log("error =", error);
+  console.log("x variable =", x);
   return (
     <div className="home">
       {error && <div>{error}</div>}

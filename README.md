@@ -109,4 +109,8 @@
 
 #24 - useEffect Cleanup
 
+- Unable to reproduce error shown in tutorial with newer version "react-router-dom": "^5.3.4"
+
 #25 - Route Parameters
+
+#26 - Reusing Custom Hooks
